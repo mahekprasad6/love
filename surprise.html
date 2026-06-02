@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Secret For Majur ❤️</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<img
+src="images/ship.png"
+class="ship"
+alt="ship">
+<div class="hero">
+
+<h1>🔒 Secret Page</h1>
+
+<p>
+Only Majur knows the password.
+</p>
+
+<input
+type="password"
+id="password"
+placeholder="Enter Password"
+style="
+padding:12px;
+border-radius:10px;
+border:none;
+margin-top:20px;
+">
+
+<br>
+
+ <p>
+The First muh dikkhai
+</p>
+
+<br>
+
+<button
+class="btn"
+onclick="checkPassword()">
+Unlock ❤️
+</button>
+
+<div
+id="secretMessage"
+style="display:none;margin-top:30px;">
+
+<h2>To My Love ❤️</h2>
+
+<p>
+
+If you're reading this...
+
+you found the secret place that only belongs to us.
+
+Every mile between us is temporary.
+
+One day,
+the distance will end,
+the waiting will end,
+and I'll finally be able to hug you.
+
+Forever yours,
+
+Khajur ❤️
+
+</p>
+
+</div>
+
+</div>
+
+<script>
+
+function checkPassword(){
+
+const password =
+document.getElementById("password").value;
+
+if(password === "18052026"){
+
+document.getElementById(
+"secretMessage"
+).style.display="block";
+
+}
+else{
+
+alert("Wrong password ❤️");
+
+}
+
+}
+
+</script>
+
+</body>
+</html>
